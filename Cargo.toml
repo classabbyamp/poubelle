@@ -11,8 +11,15 @@ actix-multipart = "0.6.1"
 actix-web = "4"
 clap = { version = "4.5.4", features = ["derive", "env"] }
 env_logger = "0.11.3"
+log = "0.4.21"
 mime = "0.3.17"
 mime2ext = "0.1.52"
+parking_lot = "0.12.1"
 rand = "0.8.5"
 sqids = "0.4.1"
+syntastica = "0.4.1"
+# syntastica-parsers-git = { version = "0.4.1", features = ["all"] }
+syntastica-themes = "0.4.1"
+tft = "0.1.1"
+tokio = { version = "1.37.0", features = ["process"] }
 tree_magic_mini = "3.1.4"
